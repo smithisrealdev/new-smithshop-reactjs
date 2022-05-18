@@ -50,7 +50,7 @@ export default function Navbar() {
                     </Link>
                 </button>
                 <Link className='h-12 items-center text-base flex text-slate-700' href="#" underline="none">
-                    <a>
+                    <a className=" font-bold text-black">
                         Login
                     </a>
                 </Link>
