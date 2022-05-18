@@ -19,8 +19,12 @@ export default function CardCategory({ img, titlCategory }) {
                     <div className='h-20 font-extrabold text-white w-full px-5 flex justify-between items-center'>
                         <h1>
                             {titlCategory}
+                            <h2>games</h2>
                         </h1>
+                        
+                        
                         <button className='bg-forward w-6 h-6 flex items-center justify-center rounded-full'>
+                            
                             <img  className=' object-cover w-3 h-3' src={ForwardIcon} />
                         </button>
 
@@ -36,6 +40,7 @@ export default function CardCategory({ img, titlCategory }) {
                             <h1>
                                 {titlCategory}
                             </h1>
+                            
                             <button className='bg-forward w-6 h-6 flex items-center justify-center rounded-full'>
                             <img className='rotate-90 object-cover w-3 h-3' src={ForwardIcon} />
                             </button>
