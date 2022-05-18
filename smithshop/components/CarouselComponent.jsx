@@ -43,7 +43,7 @@ export default function CarouselComponent() {
                                 View offers
                                 </h1>
                                 <div className=' w-4 h-4'>
-                            <img className='object-cover w-4 h-4'  src={PlayIcon} />
+                            <img className='object-cover w-4 h-4'  src={PlayIcon}  />
                                 </div>
                         </button>
                     </div>
