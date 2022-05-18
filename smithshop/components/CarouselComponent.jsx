@@ -1,7 +1,7 @@
 import React, { } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import PlayIcon from '../assets/images/play-icon.ico'
+import PlayIcon from '../assets/images/detail_card/play--icon.png'
 
 
 const Mockdata = [1, 2, 3, 4]
@@ -42,8 +42,8 @@ export default function CarouselComponent() {
                             <h1>
                                 View offers
                                 </h1>
-                                <div className=' w-4 h-4'>
-                            <img className='object-cover w-4 h-4'  src={PlayIcon}  />
+                                <div className=' w-2 h-2'>
+                            <img className='object-cover w-2 h-2'  src={PlayIcon}  />
                                 </div>
                         </button>
                     </div>
