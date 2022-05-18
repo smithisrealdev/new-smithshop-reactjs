@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className='flex justify-center items-center gap-6'>
                 <button className='rounded-full border-1 border-bottom-nav hover:border-rose-500 hover:bg-red-50 text-slate-700 h-12 px-8'>
                     <Link className='font-main text-sm' href="/signup" underline="none">
-                        <a>
+                        <a className=" font-bold text-black">
                             Sign up
                         </a>
                     </Link>
